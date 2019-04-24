@@ -1,0 +1,30 @@
+#ImageChooser {
+  grid-area: a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  max-height: 100vh;
+  font-family: "Oswald", sans-serif;
+  font-size: 0.7em;
+  margin-top: 2em;
+}
+
+#ImageChooser img {
+  max-width: 15vw;
+  max-height: 30vh;
+}
+
+#ImageChooser img:hover {
+  filter: brightness(80%);
+}
+
+#ImageChooser ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.selected {
+  border: 2px solid blue;
+}

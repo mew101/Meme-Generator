@@ -1,0 +1,39 @@
+#Input {
+  display: flex;
+  flex-direction: row;
+  border: 10px, blue;
+  margin-bottom: 1em;
+  justify-content: top;
+}
+
+#TextBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 10px, blue;
+}
+
+#TextBox p {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+
+#InputPanelContainer h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#TopText {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+#BottomText {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+#memeButton {
+  font-family: "Oswald", sans-serif;
+}

@@ -1,0 +1,51 @@
+#memeList {
+  grid-area: d;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  overflow-y: scroll;
+  max-height: 100vh;
+  font-family: "Oswald", sans-serif;
+  font-size: 0.7em;
+}
+
+#memeList img {
+  width: 40vh;
+  background-size: cover;
+}
+
+#memeList ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  padding-bottom: 0.5em;
+}
+
+#listItemContainer {
+ position: relative;
+ font-family: "Oswald", sans-serif;
+  color: white;
+  font-size:2em;
+
+  text-shadow: 2px 2px black;
+}
+
+#listTopText {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+#listBottomText {
+ position: absolute;
+ text-align: center;
+ bottom: 0.2em;
+ right: 0;
+  left: 0;
+}

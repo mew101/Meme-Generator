@@ -1,0 +1,42 @@
+#Preview {
+  grid-area: b;
+  position: relative;
+  display: block;
+  margin: auto;
+}
+
+#previewImage {
+  width: 65vh;
+  display: block;
+  background-size: cover;
+  border-radius: 5%;
+  align-self: center;
+  margin: auto;
+  grid-area: b;
+}
+
+#topText {
+  position: absolute;
+  top: 0.5em;
+  right: 0;
+  left: 0;
+  text-align: center;
+  z-index: 100;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 4em;
+}
+
+#bottomText {
+  position: absolute;
+  bottom: 0.1em;
+  right: 0;
+  left: 0;
+  text-align: center;
+  z-index: 100;
+  font-family: "Oswald", sans-serif;
+  color: white;
+  text-shadow: 2px 2px black;
+  font-size: 4em;
+}
